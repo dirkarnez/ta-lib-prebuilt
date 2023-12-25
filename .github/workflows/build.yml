@@ -29,7 +29,7 @@ jobs:
     env:
       libraryName: ta-lib
       cmakeInstallationPath: ta-lib-installation
-      tagName: c8b075bb947b2a77598477ca457f31ecdde7209a7
+      tagName: 8b075bb947b2a77598477ca457f31ecdde7209a7
     steps:
 
     # TA-Lib/ta-lib
