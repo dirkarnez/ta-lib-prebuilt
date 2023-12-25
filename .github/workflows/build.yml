@@ -29,12 +29,14 @@ jobs:
     env:
       libraryName: ta-lib
       cmakeInstallationPath: ta-lib-installation
-      tagName: v0.6.0-rc.1
+      tagName: c8b075bb947b2a77598477ca457f31ecdde7209a7
     steps:
+
+    # TA-Lib/ta-lib
     
       - uses: actions/checkout@v4
         with:
-          repository: TA-Lib/ta-lib
+          repository: dirkarnez/ta-lib
           ref: ${{ env.tagName }}
           path: ${{ env.libraryName }}
           submodules: true
